@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title></title>
+<!--  Library includes -->
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+<script src="script/script.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!-- Main page -->
+<div data-role="page" id="main_page">
+    <div data-role="header" data-position="fixed">
+      <h1 id="title_name"></h1>
+    </div>
+
+    <!-- Page content -->
+    <div data-role="content" id="main_content"> 
+      <div class="ui-grid-a">
+        <div class="ui-block-a">
+            <div>Name: <b><span id="name_id"></span></b></div>
+            <div>Age: <b><span id="age_id"></span></b></div>
+            <div>Address: <b><span id="address_id"></span></b> </div>
+            <div>Merhital status: <b><span id="status_id"></span></b> </div>
+          </div>
+          <!-- Remember to change file ending on me.jpeg if you are using a .png -->
+        <div class="ui-block-b"> <img src="images/me.png" class="ui-content-picture" width="100" alt="Logo" align="right"></div>
+      </div>
+      <div class="ui-content-about"><b><span id="about_id"></span></b></div>
+    <!-- End content-->
+    </div>
+      <!-- FOOTER MAIN PAGE -->
+          <div data-role="footer" class="nav-navbar-style" data-position="fixed">
+            <div data-role="navbar" data-id="navbar_id" class="nav-navbar-style">
+            <ul>
+                <li><a href="#main_page" id="homebtn" data-icon="custom" class="ui-btn-active ui-state-persist">Home</a></li>
+                <li><a href="#about_page" id="aboutbtn" data-icon="custom">About</a></li>
+                <li><a href="#contact_page" id="infobtn" data-icon="custom">Contact</a></li>
+            </ul>
+          </div> 
+    </div>
+  </div>
+
+    <!-- About page -->
+<div data-role="page" id="about_page" data-position="fixed">
+
+    <div data-role="header" data-position="fixed">
+      <h1>About</h1>
+    </div>
+    <!-- Page content -->
+    <div data-role="content">
+        <!-- ListView -->
+      <ul id="mylist" data-role="listview" data-inset="true"> </ul>
+        <!-- End content -->  
+    </div>
+      <!-- FOOTER MAIN PAGE -->
+          <div data-role="footer" class="nav-navbar-style" data-position="fixed">
+            <div data-role="navbar" data-id="navbar_id" class="nav-navbar-style">
+              <ul>
+                <li><a href="#main_page" id="homebtn" data-icon="custom">Home</a></li>
+                <li><a href="#about_page" id="aboutbtn" data-icon="custom" class="ui-btn-active ui-state-persist">About</a></li>
+                <li><a href="#contact_page" id="infobtn" data-icon="custom">Contact</a></li>
+              </ul>
+          </div> 
+    </div>
+  </div>
+    <!-- Contact page -->
+<div data-role="page" id="contact_page" data-position="fixed">
+
+    <div data-role="header" data-position="fixed">
+      <h1>Contact</h1>
+    </div>
+
+    <!-- Page content -->
+    <div data-role="content">
+      <div class="ui-content-about">
+      <h4 id="contact_info"></h4>
+    </div>
+        <div data-role="controlgroup" align="center" data-type="horizontal"> 
+          <a id="contact_call" href="" data-role="button" rel=external>Call</a>  
+          <a id="contact_mail" href="" data-role="button"rel=external>Email</a>  
+          <a id="contact_sms" href="" data-role="button">SMS</a>
+        </div>
+        <!-- End content -->
+    </div>
+      <!-- FOOTER MAIN PAGE -->
+          <div data-role="footer" class="nav-navbar-style" data-position="fixed">
+            <div data-role="navbar" data-id="navbar_id" class="nav-navbar-style">
+            <ul>
+                <li><a href="#main_page" id="homebtn" data-icon="custom">Home</a></li>
+                <li><a href="#about_page" id="aboutbtn" data-icon="custom">About</a></li>
+                <li><a href="#contact_page" id="infobtn" data-icon="custom"  class="ui-btn-active ui-state-persist">Contact</a></li>
+            </ul>
+          </div> 
+    </div>
+    </div>
+</body>
+</html>

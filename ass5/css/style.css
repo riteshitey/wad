@@ -1,0 +1,56 @@
+.ui-body-c{
+    background: #838B8B;
+}
+
+.ui-content-about {
+    /* The navigation menu bar: */
+    background:white;
+    border:1px solid white;
+    float:left;
+    padding: 10px 15px;
+    margin: 25px 5px 20px 2px;
+    border-radius: 10px;
+    -moz-box-shadow:    inset 0 0 2px #838B8B;
+    -webkit-box-shadow: inset 0 0 2px #838B8B;
+    box-shadow:         inset 0 0 2px #838B8B;
+
+}
+.ui-content-picture {
+    /* The navigation menu bar: */
+    background:white;
+    border:5px solid white;
+    float:right;
+    padding:5px 5px;
+    border-radius: 10px;
+    -moz-box-shadow:    inset 0 0 2px #838B8B;
+    -webkit-box-shadow: inset 0 0 2px #838B8B;
+    box-shadow:         inset 0 0 2px #838B8B;
+
+}
+.nav-navbar-style .ui-btn .ui-btn-inner {
+    padding-top: 40px !important; 
+}
+
+.nav-navbar-style .ui-btn .ui-icon { 
+    width: 40px!important; 
+    height: 30px!important; 
+    margin-left: -20px !important;  
+}
+
+#homebtn .ui-icon { 
+    background-image: url(../images/user.png);
+    background-position: 7px 5px;
+    background-repeat: no-repeat;
+}
+
+#aboutbtn .ui-icon { 
+    background-image: url(../images/education.png);
+    background-position: 7px 5px;
+    background-repeat: no-repeat; 
+}
+
+#infobtn .ui-icon { 
+    background-image: url(../images/phone.png);
+    background-position: 7px 3px;
+    background-repeat: no-repeat; 
+}

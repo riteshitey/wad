@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script>
+    const myfunc = () => {
+      const val = document.getElementById("rows").value;
+      const value = val.split("#");
+      let row = value[0];
+      let col = value[1];
+      let sv = value[2];
+      let str2;
+      for (let i = 1; i <= parseInt(row); i++) {
+        str2 += "<tr>";
+        let t = sv;
+        for (let j = 1; j <= parseInt(col); j++) {
+          str2 += `<td>${t * i}</td>`;
+          t++;
+        }
+        str2 += "</tr>";
+      }
+      document.getElementById("table").innerHTML = str2;
+    };
+  </script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <input id="rows" onchange="myfunc()" />
+    <table border="1" id="table"></table>
+  </body>
+</html>

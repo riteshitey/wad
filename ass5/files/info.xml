@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	<cv>
+	<person id="1">
+		<name>Emil Mork</name>
+		<age>22</age>
+		<address>Someplace 12 7050 Norway</address>
+		<phone>99933345</phone>
+		<email>emil@itmobil.no</email>
+		<status>cohabitation</status>
+		<aboutMe>My key qualifications are mobile application development, project management, innovation and smart solutions. I have good experience with commersial Android application development.</aboutMe>
+		<contactInfo>Thank you for taking a look at my web app resume. Please contact me for more information.</contactInfo>
+		<education>
+				<school>
+					<name>NTNU</name>
+					<duration>Aug 2011 - Current </duration>
+					<educationName>Master of science</educationName>
+					<more>Focus on planning, building and use of information systems - systems that help users with the collection, storage and distribution of information. Emphasizes how to construct large software systems, focusing on the individual components of any system is composed of and how to make programs as flawless as possible in the shortest possible time.</more>
+				</school>
+				<school>
+					<name>HIST</name>
+					<duration>Aug 2008 - May 2011</duration>
+					<educationName>Computer engineer</educationName>
+					<more>Focus on mobile development.</more>
+				</school>
+
+			</education>
+			<experience>
+				<work>
+					<name>Capgemini ASA</name>
+					<duration>Jun 2012 - Aug 2012</duration>
+					<workTitle>Summer internship</workTitle>
+					<more>Worked on a page for farmers to register their consents to third parties.</more>
+				</work>
+				<work>
+					<name>Statoil ASA</name>
+					<duration>May 2011 - Aug 2011</duration>
+					<workTitle>Summer internship</workTitle>
+					<more>Worked on a mobile and desktop application for tracking persons with and without cellural signal</more>
+				</work>
+				<work>
+					<name>HIST</name>
+					<duration>Jan 2011 - Nov 2011</duration>
+					<workTitle>Student assistent - Android</workTitle>
+					<more>oriented tasks and answered questions on e-mail and forum.</more>
+				</work>
+				<work>
+					<name>ITMobil</name>
+					<duration>Jan 2010 - Current</duration>
+					<workTitle>Founder and developer</workTitle>
+					<more>Worked with several mobile development projects</more>
+				</work>
+				<work>
+					<name>Retronic AS</name>
+					<duration>May 2010 - Current</duration>
+					<workTitle>Part developer</workTitle>
+					<more>Made several mobile application and other work.</more>
+				</work>
+			</experience>
+	</person>
+	</cv>
